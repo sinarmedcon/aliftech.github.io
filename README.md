@@ -28,5 +28,5 @@ Proses instalasi cananimate terbilang sangat mudah yaitu sebagai berikut :
 2. Ekstrak file zip cananimate sehingga akan muncul sebuah folder bernama cananimate
 3. Untuk melihat nama kelas dan demo animasi yang terdapat di library cananimate silakan buka file index.html di peramban anda.
 4. Setelah itu silakan kembali ke folder cananimate dan cari file cananimate.css, kemudian silakan kopi file tersebut di folder root projek kalian.
-5. Silakan buka file utama pada projek website kalian dan tambahkan kode <!-- <link rel="stylesheet" href="cananimate.css"> --> pada tag <!-- <head>...</head> -->
+5. Silakan buka file utama pada projek website kalian dan tambahkan kode link rel="stylesheet" href="cananimate.css" pada tag head...head
 6. Instalasi selesai. Selamat menikmati cananimate.
