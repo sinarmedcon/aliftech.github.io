@@ -1,0 +1,574 @@
+@charset "UTF-8";
+
+/*!
+ * cananimate.css -
+ * Version - 1.0
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2019 Wahyu Krisna Aji
+ *
+ */
+
+.toRight {
+    animation-name: toRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@-moz-keyframes toRight {
+    0% {
+        text-align: center;
+        -moz-transform: translate(-300px, 0);
+    }
+    100% {
+        text-align: center;
+        -moz-transform: translate(0, 0);
+    }
+}
+
+@-o-keyframes toRight {
+    0% {
+        text-align: center;
+        -o-transform: translate(-300px, 0);
+    }
+    100% {
+        text-align: center;
+        -o-transform: translate(0,0);
+    }
+}
+
+@-webkit-keyframes toRight {
+    0% {
+        text-align: center;
+        -webkit-transform: translate(-300px, 0);
+    }
+    100% {
+        text-align: center;
+        -webkit-transform: translate(0,0);
+    }
+}
+
+.toLeft {
+    animation-name: toLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@-moz-keyframes toLeft {
+    0% {
+        text-align: center;
+        -moz-transform: translate(300px,0);
+    }
+    100% {
+        text-align: center;
+        -moz-transform: translate(0,0);
+    }
+}
+
+@-o-keyframes toLeft {
+    0% {
+        text-align: center;
+        -o-transform: translate(300px,0);
+    }
+    100% {
+        text-align: center;
+        -o-transform: translate(0,0);
+    }
+}
+
+@-webkit-keyframes toLeft {
+    0% {
+        text-align: center;
+        -webkit-transform: translate(300px, 0);
+    }
+    100% {
+        text-align: center;
+        -webkit-transform: translate(0,0);
+    }
+}
+
+.toBottom {
+    animation-name: toBottom;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@-moz-keyframes toBottom {
+    0% {
+        -moz-transform: translate(0, -300px);
+        text-align: center;
+    }
+    100% {
+        -moz-transform: translate(0, 0);
+        text-align: center;
+    }
+}
+
+.toTop {
+    animation-name: toTop;
+    animation-timing-function: ease;
+    animation-direction: normal;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@-moz-keyframes toTop {
+    0% {
+        text-align: center;
+        -moz-transform: translate(0, 300px);
+    }
+    100% {
+        text-align: center;
+        -moz-transform: translate(0,0);
+    }
+}
+
+@-o-keyframes toTop {
+    0% {
+        text-align: center;
+        -o-transform: translate(0, 300px);
+    }
+    100% {
+        text-align: center;
+        -o-transform: translate(0,0);
+    }
+}
+
+@-webkit-keyframes toTop {
+    0% {
+        text-align: center;
+        -webkit-transform: translate(0, 300px);
+    }
+    100% {
+        text-align: center;
+        -webkit-transform: translate(0,0);
+    }
+}
+
+.bounce {
+    animation-name: bounce;
+    animation-timing-function: ease;
+    animation-direction: normal;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@-moz-keyframes bounce {
+    0%, 20%, 53%,80% {
+        text-align: center;
+        -moz-transform: translate3d(0,0,0);
+    }
+
+    40%,43% {
+        text-align: center;
+        -moz-transform: translate3d(0, -30px, 0);
+    }
+
+    70% {
+        text-align: center;
+        -moz-transform: translate3d(0, -15px, 0);
+    }
+
+    90% {
+        text-align: center;
+        -moz-transform: translate3d(0, -5px, 0);
+    }
+
+    100% {
+        text-align: center;
+        -moz-transform: translate3d(0,0,0);
+    }
+}
+
+@-o-keyframes bounce {
+    0%, 20%, 53%,80% {
+        text-align: center;
+        -o-transform: translate3d(0,0,0);
+    }
+
+    40%,43% {
+        text-align: center;
+        -o-transform: translate3d(0, -30px, 0);
+    }
+
+    70% {
+        text-align: center;
+        -o-transform: translate3d(0, -15px, 0);
+    }
+
+    90% {
+        text-align: center;
+        -o-transform: translate3d(0, -5px, 0);
+    }
+
+    100% {
+        text-align: center;
+        -o-transform: translate3d(0,0,0);
+    }
+}
+
+@-webkit-keyframes bounce {
+    0%, 20%, 53%,80% {
+        text-align: center;
+        -webkit-transform: translate3d(0,0,0);
+    }
+
+    40%,43% {
+        text-align: center;
+        -webkit-transform: translate3d(0, -30px, 0);
+    }
+
+    70% {
+        text-align: center;
+        -webkit-transform: translate3d(0, -15px, 0);
+    }
+
+    90% {
+        text-align: center;
+        -webkit-transform: translate3d(0, -5px, 0);
+    }
+
+    100% {
+        text-align: center;
+        -webkit-transform: translate3d(0,0,0);
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        text-align: center;
+        opacity: 0;
+    }
+
+    20% {
+        text-align: center;
+        opacity: 0.2;
+    }
+
+    40% {
+        text-align: center;
+        opacity: 0.4;
+    }
+
+    60% {
+        text-align: center;
+        opacity: 0.6;
+    }
+
+    80% {
+        text-align: center;
+        opacity: 0.8;
+    }
+
+    100% {
+        text-align: center;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        text-align: center;
+        opacity: 0;
+    }
+
+    20% {
+        text-align: center;
+        opacity: 0.2;
+    }
+
+    40% {
+        text-align: center;
+        opacity: 0.4;
+    }
+
+    60% {
+        text-align: center;
+        opacity: 0.6;
+    }
+
+    80% {
+        text-align: center;
+        opacity: 0.8;
+    }
+
+    100% {
+        text-align: center;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        text-align: center;
+        opacity: 0;
+    }
+
+    20% {
+        text-align: center;
+        opacity: 0.2;
+    }
+
+    40% {
+        text-align: center;
+        opacity: 0.4;
+    }
+
+    60% {
+        text-align: center;
+        opacity: 0.6;
+    }
+
+    80% {
+        text-align: center;
+        opacity: 0.8;
+    }
+
+    100% {
+        text-align: center;
+        opacity: 1;
+    }
+}
+
+.fadeOut {
+    animation-name: fadeOut;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-moz-keyframes fadeOut {
+    0% {
+        text-align: center;
+        opacity: 1;
+    }
+
+    20% {
+        text-align: center;
+        opacity: 0.8;
+    }
+
+    40% {
+        text-align: center;
+        opacity: 0.6;
+    }
+
+    60% {
+        text-align: center;
+        opacity: 0.4;
+    }
+
+    80% {
+        text-align: center;
+        opacity: 0.2;
+    }
+
+    100% {
+        text-align: center;
+        opacity: 0;
+    }
+}
+
+@-o-keyframes fadeOut {
+    0% {
+        text-align: center;
+        opacity: 1;
+    }
+
+    20% {
+        text-align: center;
+        opacity: 0.8;
+    }
+
+    40% {
+        text-align: center;
+        opacity: 0.6;
+    }
+
+    60% {
+        text-align: center;
+        opacity: 0.4;
+    }
+
+    80% {
+        text-align: center;
+        opacity: 0.2;
+    }
+
+    100% {
+        text-align: center;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        text-align: center;
+        opacity: 1;
+    }
+
+    20% {
+        text-align: center;
+        opacity: 0.8;
+    }
+
+    40% {
+        text-align: center;
+        opacity: 0.6;
+    }
+
+    60% {
+        text-align: center;
+        opacity: 0.4;
+    }
+
+    80% {
+        text-align: center;
+        opacity: 0.2;
+    }
+
+    100% {
+        text-align: center;
+        opacity: 0;
+    }
+}
+
+.zoomIn {
+    animation-name: zoomIn;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-moz-keyframes zoomIn {
+    0% {
+        text-align: center;
+        opacity: 0;
+        -moz-transform: translate3d(0.5, 0.5, 0.5);
+    }
+
+    100% {
+        text-align: center;
+        opacity: 1;
+        -moz-transform: translate3d(0,0,0);
+        -moz-transform: scale(2,3);
+    }
+}
+
+@-o-keyframes zoomIn {
+    0% {
+        text-align: center;
+        opacity: 0;
+        -o-transform: translate3d(0.5, 0.5, 0.5);
+    }
+
+    100% {
+        text-align: center;
+        opacity: 1;
+        -o-transform: translate3d(0,0,0);
+        -o-transform: scale(2,3);
+    }
+}
+
+@-webkit-keyframes zoomIn {
+    0% {
+        text-align: center;
+        opacity: 0;
+        -webkit-transform: translate3d(0.5, 0.5, 0.5);
+    }
+
+    100% {
+        text-align: center;
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        -webkit-transform: scale(2,3);
+    }
+}
+
+.zoomOut {
+    animation-name: zoomOut;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-moz-keyframes zoomOut {
+    0% {
+        text-align: center;
+        opacity: 1;
+    }
+
+    100% {
+        text-align: center;
+        -moz-transform: scale3d(0.5, 0.5, 0.5);
+        opacity: 1;
+    }
+}
+
+@-o-keyframes zoomOut {
+    0% {
+        text-align: center;
+        opacity: 1;
+    }
+
+    100% {
+        text-align: center;
+        -o-transform: scale3d(0.5, 0.5, 0.5);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes zoomOut {
+    0% {
+        text-align: center;
+        opacity: 1;
+    }
+
+    100% {
+        text-align: center;
+        -webkit-transform: scale3d(0.5, 0.5, 0.5);
+        opacity: 1;
+    }
+}
+
+.spin {
+    animation-name: spin;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+@-moz-keyframes spin {
+    0% {
+        text-align: center;
+        -moz-transform: rotate(0);
+    }
+
+    100% {
+        text-align: center;
+        -moz-transform: rotate(360deg);
+    }
+}
