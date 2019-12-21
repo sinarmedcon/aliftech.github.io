@@ -11,11 +11,11 @@ Cananimate merupakan library animasi CSS yang didesain sangat ringan dan mudah u
 
 Nama File : cananimate.css
 
-Tanggal Pembuatan : 7 Desember 2019
+Tanggal Pembuatan : 21 Desember 2019
 
-Tanggal Rilis : 7 Desember 2019
+Tanggal Rilis : 21 Desember 2019
 
-Versi : 1.0
+Versi : 3.0
 
 Lisensi : MIT
 
@@ -43,11 +43,11 @@ Cananimate is a CSS animation library that is designed to be very light and easy
 
 File Name: cananimate.css
 
-Date of Creation: December 7, 2019
+Date of Creation: December 21, 2019
 
-Release Date: December 7, 2019
+Release Date: December 21, 2019
 
-Version: 1.0
+Version: 3.0
 
 License: MIT
 
